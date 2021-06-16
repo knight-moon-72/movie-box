@@ -3,7 +3,8 @@ name: Update movie-box gist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'
+    #- cron: '0 * * * *'
+    - cron:  '30 5,17 * * *'
   watch:
     types: [started]
   
